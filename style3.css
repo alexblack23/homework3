@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 2000px;
+    padding: 100px 0;
+}
+
+.content {
+    width: 480px;
+    background-color: azure;
+    margin: auto;
+    padding: 60px 37px 44px;
+    font-family: Arial sans-serif;
+
+}
+
+.title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase; /* все буквы большие */
+    color: chocolate;
+    font-size: 25px;
+    margin-bottom: 27px;
+
+
+}
+.picture {
+    display: block;
+    margin 0 auto 27px;
+
+}
+.subtitle {
+    font-size: 14px;
+    line-height: 19px;
+    color: darkred;
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+.text {
+    color: #4e50505;
+    font-size: 12px;
+    line-height: 17px;
+}
+.article {
+    /*padding-bottom: 51px; - делает отступы но они неправильны с точки зрения верстки*/
+    margin-bottom: 51px;
+}
+.list {
+    list-style: none;
+}
+.submod2 {
+    margin-bottom: 15px;
+}
+.listh3: last child {
+    margin-bottom: 0;
+
+
+}
+.articlesecond {
+    border-bottom: 1px solid black;
+    padding-bottom: 52px;
+}
+.listitem {
+    color: darkblue;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 18px;
+
+}
+.list {
+    display: inline-block;
+    vertical-align: top;
+}
+.list:last-child {
+    margin-left: 30px;
+}
+.textmarginbottom {
+    margin-bottom: 30px;
+}
+.article:last-child {
+    margin-bottom: 0;
+}
+
+
